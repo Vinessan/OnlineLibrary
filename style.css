@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+    background-color: rgb(150, 80, 0);
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5em;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.705);
+  
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    font-size: 25px;
+    color: rgb(150, 80, 0);
+    transition: all 0.5s ease;
+    
+}
+
+main>div>img{
+    width: 100%;
+}
+main>div>table{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 60%;
+    margin-top: -47%;
+    margin-left: 35%;
+}
+
+input{
+    text-align:center;
+    width: 15vw;
+    height: 4vh;
+    opacity: 50%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17;
+    cursor: pointer;
+}
+input:hover{
+    opacity: 100%;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 1px 1px 30px 1px #fff;
+}
+input#buscar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    margin-top: 10%;
+    margin-left: 18%;
+    box-shadow: 10px 10px 30px 10px #000;
+}
+input#buscar:hover{
+    margin-top: 10.5%;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s;
+    box-shadow: 1px 1px 30px 1px #fff;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7em;
+    font-size: 15px;
+    margin-top: 20%;
+    color: #fff;
+    background-color: rgb(0, 0, 0);  
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40%;
+}
+
+
+@media(max-width: 763px) {
+    nav{
+        height: 2em;
+        font-size: 10px;
+    }
+    nav:hover{
+        font-size: 12px;
+    }
+}
+
+.books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    margin: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 15px #000;
+    cursor: pointer;
+}
+.books:hover{
+background-color: #000;
+box-shadow: 10px 10px 40px 15px #fff;
+color: #fff;
+transition: all 1s linear;
+}
+.link_books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.link_books:hover{
+    background-color: #000;
+box-shadow: 10px 10px 40px 15px #fff;
+color: #fff;
+transition: all 1s linear;
+}
+
+ 
+
